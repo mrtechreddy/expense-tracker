@@ -1,0 +1,82 @@
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+🚀 ExpenseTrackr running at http://localhost:3000
+👉 GET /
+   SessionID: DqOQ1gyRJoLzlg_effxlauHAVvGUymUD
+   Session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-10-14T09:17:48.545Z,
+    originalMaxAge: 86400000,
+    httpOnly: false,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 1,
+  username: 'ak'
+}
+👉 GET /dashboard
+   SessionID: DqOQ1gyRJoLzlg_effxlauHAVvGUymUD
+   Session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-10-14T09:17:48.545Z,
+    originalMaxAge: 86400000,
+    httpOnly: false,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 1,
+  username: 'ak'
+}
+👉 GET /api/summary
+   SessionID: DqOQ1gyRJoLzlg_effxlauHAVvGUymUD
+   Session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-10-14T09:17:48.545Z,
+    originalMaxAge: 86400000,
+    httpOnly: false,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 1,
+  username: 'ak'
+}
+👉 GET /logout
+   SessionID: DqOQ1gyRJoLzlg_effxlauHAVvGUymUD
+   Session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-10-14T09:17:48.545Z,
+    originalMaxAge: 86400000,
+    httpOnly: false,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 1,
+  username: 'ak'
+}
+👉 GET /login
+   SessionID: Z2SIEarfkN_ApplfuulWP9_3xB7vbfmK
+   Session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-10-14T10:20:25.107Z,
+    originalMaxAge: 86400000,
+    httpOnly: false,
+    sameSite: 'lax',
+    secure: false
+  }
+}
+👉 GET /api/summary
+   SessionID: QeIuiyNkLCB-lTZlBuEPNMykCwcEIi8W
+   Session: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-10-14T10:20:25.634Z,
+    originalMaxAge: 86400000,
+    httpOnly: false,
+    sameSite: 'lax',
+    secure: false
+  }
+}

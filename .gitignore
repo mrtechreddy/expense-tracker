@@ -1,4 +1,18 @@
+# Node modules
 node_modules/
-db/expenses.db
+
+# Build output
+dist/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Environment files
 .env
+
+# OS/System files
+.DS_Store
+Thumbs.db
 

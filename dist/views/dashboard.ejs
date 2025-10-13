@@ -1,0 +1,52 @@
+<div class="row mb-3">
+  <div class="col-md-3">
+    <div class="stat-card bg-success p-3 shadow text-center">
+      <h6>Today</h6>
+      <h4 id="todayAmount">₹0.00</h4>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="stat-card bg-primary p-3 shadow text-center">
+      <h6>Weekly</h6>
+      <h4 id="weekAmount">₹0.00</h4>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="stat-card bg-warning p-3 shadow text-center">
+      <h6>Monthly</h6>
+      <h4 id="monthAmount">₹0.00</h4>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="stat-card bg-danger p-3 shadow text-center">
+      <h6>Quarterly</h6>
+      <h4 id="quarterAmount">₹0.00</h4>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-4">
+  <div class="col-md-8">
+    <div class="card p-3 shadow-lg">
+      <canvas id="categoryPie"></canvas>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card p-3 shadow-lg text-center">
+      <h5>Total Spent</h5>
+      <h2 id="totalSpent">₹0.00</h2>
+      <p class="text-muted mt-2">Forecast next month: <strong id="forecastNext">₹0.00</strong></p>
+      <a href="/add" class="btn btn-gradient w-100 mt-2">+ Add Expense</a>
+      <a href="/expenses" class="btn btn-link mt-2">View all</a>
+    </div>
+  </div>
+</div>
+
+<div class="card p-3">
+  <h5>Recent expenses</h5>
+  <table class="table">
+    <thead><tr><th>Date</th><th>Category</th><th>Amount</th></tr></thead>
+    <tbody id="recentRows"></tbody>
+  </table>
+</div>
+
