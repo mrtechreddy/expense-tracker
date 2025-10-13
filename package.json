@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "ExpenseTrackr - Node.js expense tracker (Express + SQLite + EJS)",
   "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start:prod": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "rm -rf dist && mkdir -p dist && cp -r server.js package.json public views routes services config dist || true && (cd dist && npm ci --only=production)"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
