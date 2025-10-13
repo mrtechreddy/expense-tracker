@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const res = await fetch('/api/summary');
     if (!res.ok) {
       if (res.status === 401) {
-        window.location = '/login';
+  //      window.location = '/login';
       }
       return;
     }
