@@ -12,7 +12,7 @@
     "build": "rm -rf dist && mkdir -p dist && cp -r server.js package.json package-lock.json public views routes services config db dist && cd dist && npm install --omit=dev && echo '✅ Build complete: dist with production dependencies created.'"
   },
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcrypt": "^6.0.0",
     "body-parser": "^1.20.2",
     "connect-sqlite3": "^0.9.16",
     "dotenv": "^17.2.3",
